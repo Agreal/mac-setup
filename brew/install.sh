@@ -6,7 +6,6 @@ then
   # Install the MacOS homebrew
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
-exit 0
 
 brew install antigen # Plugin manager for zsh, inspired by oh-my-zsh and vundle
 brew install z
